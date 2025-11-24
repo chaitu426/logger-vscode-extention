@@ -211,7 +211,7 @@ let logFilePath = null;
 let storageDir = null; 
 
 // Backend endpoint
-const BACKEND_UPLOAD_URL = "https://chaitanyaabhade.vercel.app/api/admin/uploadlog";
+const BACKEND_UPLOAD_URL = "";
 
 // Config
 const FLUSH_INTERVAL_MS = 5 * 60 * 1000;
