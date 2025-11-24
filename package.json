@@ -1,0 +1,26 @@
+{
+  "name": "advanced-dev-logger-local",
+  "displayName": "Advanced Dev Logger (local)",
+  "version": "0.0.2",
+  "publisher": "chaitu",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "*"
+  ],
+  "enabledApiProposals": [
+    "terminalDataWriteEvent"
+  ],
+  "contributes": {},
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
